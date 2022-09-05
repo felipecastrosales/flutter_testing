@@ -13,6 +13,9 @@ class ArticlePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context);
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Article'),
+      ),
       body: SingleChildScrollView(
         padding: EdgeInsets.only(
           top: size.padding.top,

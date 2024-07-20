@@ -4,7 +4,7 @@ import 'package:flutter_testing/news_change_notifier.dart';
 import 'package:provider/provider.dart';
 
 class NewsPage extends StatefulWidget {
-  const NewsPage({Key? key}) : super(key: key);
+  const NewsPage({super.key});
 
   @override
   State<NewsPage> createState() => _NewsPageState();
